@@ -1,13 +1,11 @@
 package main_page;
 
 import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 
 
 import java.time.Duration;
 
-import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.$x;
 
 ////button[@class='hero-descriptor_btn btn btn-primary']
