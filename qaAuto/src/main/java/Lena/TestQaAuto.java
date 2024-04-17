@@ -1,10 +1,12 @@
 package Lena;
 
-public class TestQaAuto {
+import org.testng.annotations.Test;
+import org.testng.internal.BaseTestMethod;
 
 
+public class TestQaAuto{
 
-    ///bdg
+
 
 
 }
