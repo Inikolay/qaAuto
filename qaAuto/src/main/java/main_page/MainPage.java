@@ -7,6 +7,8 @@ import com.codeborne.selenide.SelenideElement;
 
 import java.time.Duration;
 
+import static com.codeborne.selenide.Selenide.page;
+
 public class MainPage {
 
     private SelenideElement btnSignUp = Selenide.$x("//button[@class='hero-descriptor_btn btn btn-primary']");
@@ -32,5 +34,24 @@ public class MainPage {
         return this;
     }
 
+    public MainPage writeEmail(String email){
+        inputEmail.setValue(email);
+        return this;
+    }
+
+    public MainPage writePassword(String password){
+        inputPassword.setValue(password);
+        return this;
+    }
+
+    public MainPage writeRePassword(String RePassword){
+        inputRePassword.setValue(RePassword);
+        return this;
+    }
+
+    public Profile clickBtnRegister(){
+        btnRegister.shouldBe(Condition.visible, Duration.ofSeconds(5)).click();
+        return page(Profile.class);
+    }
 
 }
