@@ -70,6 +70,46 @@ private SelenideElement PopUpAddCar = Selenide.$x("//div[@class='form-control ng
         return this;
     }
 
+    private SelenideElement BtnAddExpence = Selenide.$x("//button[@class='car_add-expense btn btn-success']");
+    public Garage clickBtnAddExpence(){
+        BtnAddExpence.click();
+        return this;
+    }
+
+    private SelenideElement InputMilage = Selenide.$x("//input[@id='addExpenseMileage']");
+    public Garage writeMileageForExpence(String mileage){
+        InputMilage.setValue(mileage);
+        return this;
+    }
+
+    private SelenideElement InputVehicle = Selenide.$x("//div[@class='form-control ng-untouched ng-pristine ng-valid']");
+
+    public Garage checkIsVisibleSelectVehicle(){
+        InputVehicle.shouldBe(Condition.visible, Duration.ofSeconds(5));
+        return this;
+    }
+
+
+
+    private SelenideElement InputLiters = Selenide.$x("//input[@id='addExpenseLiters']");
+    public Garage writeLitersForExpence(String liters){
+        InputLiters.setValue(liters);
+        return this;
+    }
+
+    private SelenideElement InputTotalCost = Selenide.$x("//input[@id='addExpenseTotalCost']");
+    public Garage writeTotalCostForExpence(String totalcost){
+        InputTotalCost.setValue(totalcost);
+        return this;
+    }
+
+    private SelenideElement BtnAddInExpencePopUp = Selenide.$x("//button[@class='btn btn-primary']");
+    public Garage clickBtnAddInExpencePopUp(){
+        BtnAddInExpencePopUp.click();
+        return this;
+    }
+
+
 
 
 }
