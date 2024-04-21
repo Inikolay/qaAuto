@@ -24,7 +24,7 @@ public class TestQaAuto extends BaseTest {
     private String rePassword = "1234567890Qqs";
     private String nameAndLastNAme = "nikolay smirnov";
     private String mileageUpd = ".5";
-    private String mileage = "12368";
+    private String mileage = "1234";
     private String numberOfLiters = "888";
     private String totalCost = "55555";
 
