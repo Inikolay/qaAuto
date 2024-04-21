@@ -20,8 +20,8 @@ public class TestQaAuto extends BaseTest {
     private String name = "nikolay";
     private String lastName = "smirnov";
     private String email = "zdxxfgf30@gmail.com";
-    private String password = "1234567890Qq";
-    private String rePassword = "1234567890Qq";
+    private String password = "1234567890Qqs";
+    private String rePassword = "1234567890Qqs";
     private String nameAndLastNAme = "nikolay smirnov";
     private String mileageUpd = ".5";
     private String mileage = "12368";
