@@ -17,16 +17,16 @@ public class TestQaAuto extends BaseTest {
     private MainPage mainPage = new MainPage();
     private Garage garage = new Garage();
 
-    private String name = "nikolay";
-    private String lastName = "smirnov";
-    private String email = "zdxxfgf30@gmail.com";
-    private String password = "1234567890Qqs";
-    private String rePassword = "1234567890Qqs";
-    private String nameAndLastNAme = "nikolay smirnov";
-    private String mileageUpd = ".5";
-    private String mileage = "12368";
-    private String numberOfLiters = "888";
-    private String totalCost = "55555";
+    private String name = "lenals";
+    private String lastName = "llll";
+    private String email = "xg770@7gmail.com";
+    private String password = "1235890Qqs";
+    private String rePassword = "1235890Qqs";
+    private String nameAndLastNAme = "lenals llll";
+    private String mileageUpd = "1235.5";
+    private String mileage = "64487";
+    private String numberOfLiters = "345";
+    private String totalCost = "5535";
 
     @Test
     @Owner("nikolay")
